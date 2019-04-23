@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-size: 18px;
     line-height: 150%;
-    background-image: url ("just-waves.png");
+    background-image: url ("assets/images/background.png");
   }
   header {
       background-color: #ffffff;
@@ -19,20 +19,19 @@ body {
     font-size: 28px;
     font-family: Georgia, Times, "Times New Roman", serif;
     padding: 20px 0;
-    margin: 0;
+    margin: 20px auto;
     margin-bottom: 20px;
-    text-align: center;
   }
 
   h2 {
+    color: #4aaaa5;
     font-size: 24px;
-    text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
 .container {
     width: 960px;
-   margin: 0 auto;
+   margin: 20px auto;
 }
 
 #main-bio, #contact-info, #bio-image {
@@ -44,8 +43,8 @@ body {
 }
 
 #bio-image {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     margin-right: 20px;
 }
 
