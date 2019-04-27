@@ -5,17 +5,18 @@ body {
   
     font-family: 'Arial', Helvetica, serif;
     color: #777777;
-    border-color: #c03030;
-    background-image: url(../images/beige-tiles.png);
-    background-repeat: repeat-y repeat-x;
+    
+    
     font-size: 18px;
     line-height: 150%;
-    
-   
+    margin: 0;
+
   }
   header {
       background-color: #ffff;
-      margin-bottom: 40px;
+      /* margin-bottom: 40px; */
+      /* padding-left: 100px;
+      padding-right: 100px; */
      
   }
 
@@ -49,6 +50,15 @@ body {
   padding-bottom: 5px;
   border: 2px solid #777777;
   
+}
+
+.wrapper {
+  width: 1024px;
+  padding-top:50px;
+  padding-bottom: 200px;
+  background-image: url(../images/beige-tiles.png);
+  background-repeat: repeat-y repeat-x;
+  margin: 0;
 }
 
 #main-bio {
@@ -107,7 +117,7 @@ li a:hover {
     color: white;
     text-align: center;
     text-align: bottom;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     font-size: 12px;
        
 }
