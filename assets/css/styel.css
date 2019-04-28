@@ -3,7 +3,7 @@
 }
 body {
   
-    font-family: 'Arial', Helvetica, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     
     background: url(../images/beige-tiles.png);
@@ -13,11 +13,11 @@ body {
 
   }
   header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
       background-color: #ffff;
       width: 100%;
-      border-bottom: 1px solid #777777;
+      border-bottom: 1px solid #cccccc;
   }
-
 
   h1 {
     font-size: 26px;
@@ -25,68 +25,45 @@ body {
 
   h2 {
     color: #4aaaa5;
-    font-size: 20px;
+    font-size: 23px;
     font: Serif;
   }
 
 .name {
-    color: white;
+    color: #ffffff;
     background-color: #4aaaa5;
     line-height: 30px;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-    font: helvetica;
-  
-    
+    font: helvetica;   
 }
-
-
 
 .main-border {
   width: 960px;
   background-color: #ffffff;
   padding-top: 10px;
   padding-bottom: 5px;
-  border: 2px solid #777777;
+  border: 3px solid #dddddd;
+  margin-bottom: 300px;
+  margin-top: 30px;
   
-}
-
-.wrapper {
-  /* width: 2000px; */
-  padding-top:50px;
-  padding-bottom: 200px;
-  
-  /* background: url(../images/beige-tiles.png); */
-  
-  /* background-repeat: repeat-y repeat-x; */
-  /* margin: 0 auto; */
-  /* border: 1px solid #777777; */
 }
 
 #main-bio {
    width: 920px;
    margin: 20px;
-   border-color: 1px solid tan;
-   background-color: #ffffff;
-   
+   background-color: #ffffff;  
 }
 
 .navbar {
   padding-top: 17px;
-  line-height: 13px;
-  
-}
-
-#headerid {
-  width:100%; margin: 0px;
+  line-height: 8px; 
 }
 
 .container {
-
   margin: 0 auto;
   width: 960px;
-  overflow: hidden;
 }
 
 #bio-image {
@@ -124,35 +101,21 @@ li a:hover {
 
 .navitem{
   border-right-style: solid;
-  border-right-color: #ddd;
+  border-right-color: #dddd;
 }
 .footer {
-    background-color: grey;
+    background-color: #666666;
     border-top: 4px solid #4aaaa5;
-    Height: 60px;
+    Height: 50px;
     width: 100%;
     color: white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     font-size: 12px;
     clear: both;
     position: fixed;
-    /* left: 0; */
-    bottom: 0;
-    /* position: fixed; */
-    
-       
+    bottom: 0;   
 }
-
-#tien, #email {
-    border: 1px solid #dddd;
-}
-
-#message {
-    border: 1px solid #dddd;
-    height: 300px;
-}
-
 
 #a, #b, #c, #d, #e, #f, #g {
     width: 200px;
@@ -160,15 +123,12 @@ li a:hover {
     margin: 20px;
 }
 
-
 .clearfix{
   clear: both;
 }
   
-
-
 #submit {
-    color: white;
+    color: #ffffff;
     background-color: #4aaaa5;
     width: 80px;
     text-align: center;
@@ -179,11 +139,11 @@ li a:hover {
   position: absolute;
   width: 200px;
   height: 50px;
-  background: #2db34a;
+  background: #4aaaa5;
   margin-left: 20px;
   margin-top: 110px;
   text-align: center;
-  color: black;
+  color: #ffffff;
   
 }
 
