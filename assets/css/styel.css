@@ -6,7 +6,7 @@ body {
     font-family: 'Arial', Helvetica, serif;
     color: #777777;
     
-    
+    background: url(../images/beige-tiles.png);
     font-size: 18px;
     line-height: 150%;
     margin: 0;
@@ -14,11 +14,10 @@ body {
   }
   header {
       background-color: #ffff;
-      /* margin-bottom: 40px; */
-      /* padding-left: 100px;
-      padding-right: 100px; */
-     
+      width: 100%;
+      border-bottom: 1px solid #777777;
   }
+
 
   h1 {
     font-size: 26px;
@@ -38,13 +37,14 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     font: helvetica;
+  
     
 }
 
 
 
-.background {
-  width: 800px;
+.main-border {
+  width: 960px;
   background-color: #ffffff;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -53,34 +53,45 @@ body {
 }
 
 .wrapper {
-  width: 1024px;
+  /* width: 2000px; */
   padding-top:50px;
   padding-bottom: 200px;
-  background-image: url(../images/beige-tiles.png);
-  background-repeat: repeat-y repeat-x;
-  margin: 0;
+  
+  /* background: url(../images/beige-tiles.png); */
+  
+  /* background-repeat: repeat-y repeat-x; */
+  /* margin: 0 auto; */
+  /* border: 1px solid #777777; */
 }
 
 #main-bio {
-   width: 750px;
+   width: 920px;
    margin: 20px;
    border-color: 1px solid tan;
    background-color: #ffffff;
    
 }
 
+.navbar {
+  padding-top: 17px;
+  line-height: 13px;
+  
+}
 
+#headerid {
+  width:100%; margin: 0px;
+}
 
 .container {
 
   margin: 0 auto;
-  width: 800px;
-  
+  width: 960px;
+  overflow: hidden;
 }
 
 #bio-image {
-    height: 200px;
-    width: 150px;
+    height: 250px;
+    width: 190px;
     margin: 20px;
     float: left;  
 }
@@ -110,15 +121,26 @@ li a {
 li a:hover {
   background-color: #dddd;
 }
+
+.navitem{
+  border-right-style: solid;
+  border-right-color: #ddd;
+}
 .footer {
     background-color: grey;
     border-top: 4px solid #4aaaa5;
     Height: 60px;
+    width: 100%;
     color: white;
     text-align: center;
-    text-align: bottom;
-    /* margin-top: 100px; */
+    padding-top: 25px;
     font-size: 12px;
+    clear: both;
+    position: fixed;
+    /* left: 0; */
+    bottom: 0;
+    /* position: fixed; */
+    
        
 }
 
